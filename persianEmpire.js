@@ -11,10 +11,10 @@ case "PERSIAN" :
         alert("khosh amadid")
         break
         default :
-        alert("we love all natiolities") 
+        alert("we love all nationalities") 
 }
 
-const password = "gabriela"
+const password = "elena"
  for(let i=1 ; i<=4 ; i++){
 const userinput = prompt("enter your password") 
 if (userinput == password){
@@ -25,6 +25,5 @@ if (userinput == password){
         alert(`you are not on of our soldiers!👮‍♀️👮‍♂️ ${4-i} more chance!`)
     }
 }
-
 
 
