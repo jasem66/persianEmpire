@@ -10,8 +10,7 @@ h1{
 p{
     color: rgb(12, 56, 6);
 }
-img{display: -webkit-inline-box;
-}
+
 li{
     display: inline-block;
     list-style-type:none;
@@ -34,4 +33,12 @@ a{
 }
 ol{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gallery{
+    display: flex;
+
+}
+.photos-list{
+width: 300px;
+height: 300px;
 }
