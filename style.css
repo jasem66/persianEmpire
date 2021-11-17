@@ -1,0 +1,8 @@
+#search-submition{
+display: flex;
+flex-direction: row-reverse;
+align-items: flex-end;
+align-content: flex-end;
+
+
+}
