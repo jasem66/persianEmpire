@@ -30,11 +30,24 @@ align-content: flex-end;
 .justify{
     text-align: justify;
 }
-#nasir:hover{
+
+.text-hover{
+   
+    color: green; 
+}
+/* .hidden-links {
+
+  overflow: visible;
+    transition: var(--transition);
+  }
+  .show-links {
+ display: none;
+       visibility: visible;
+  } */
+ 
+/* #nasir:hover{
     background: url("./photos/kashan-bazarr.jpg") no-repeat
 }
 
 img:hover {
- padding: 125px;
-
-}
+} */
