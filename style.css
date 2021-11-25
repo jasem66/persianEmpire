@@ -1,40 +1,50 @@
 .embed-responsive .card-img-top {
     object-fit: cover;
 }
-body{
+
+body {
     background-color: rgba(255, 255, 255, 0.938);
 }
-li{
+
+li {
     list-style: none;
 
 }
 
-a{
+a {
     color: rgb(207, 18, 18);
     text-decoration: none;
+
+}
+
+
+#search-submition {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    align-content: flex-end;
+
+}
+
+#main-image {
+    width: 100%;
+    height: 400px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.text-hover {
+
+    color: green;
+}
+
+.farvahar-brand{
     
 }
 
 
-#search-submition{
-display: flex;
-flex-direction: row-reverse;
-align-items: flex-end;
-align-content: flex-end;
-
-}
-#main-image{
-    width:100%;
-    height: 400px;
-}
-.justify{
-    text-align: justify;
-}
-
-.text-hover{
-   
-    color: green; 
-}
 /* .hidden-links {
 
   overflow: visible;
@@ -44,7 +54,7 @@ align-content: flex-end;
  display: none;
        visibility: visible;
   } */
- 
+
 /* #nasir:hover{
     background: url("./photos/kashan-bazarr.jpg") no-repeat
 }
