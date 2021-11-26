@@ -18,7 +18,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container-fluid">
+            <div class="container">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -73,19 +73,25 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="photos/persian1.jpg" style="height:400px" class="d-block w-100" alt="...">
+      <div class="ratio ratio-21x9">
+      <img src="photos/persian1.jpg" class="d-block w-100" alt="...">
+    </div>
       <div class="carousel-caption d-none d-md-block">
         <h5>Cyrus The Great</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="photos/perspolis.jpg"  style="width:100% ;height:400px" class="d-block w-100" alt="...">
+      <div class="ratio ratio-21x9">
+      <img src="photos/perspolis.jpg"  class="d-block w-100" alt="...">
+    </div>
       <div class="carousel-caption d-none d-md-block">
         <h5>Persepolis</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="photos/gardejavidan.jpg"  style="width:100% ;height:400px" class="d-block w-100" alt="...">
+      <div class="ratio ratio-21x9">
+      <img src="photos/gardejavidan.jpg"   class="d-block w-100" alt="...">
+    </div>
       <div class="carousel-caption d-none d-md-block">
         <h5>Javidan army</h5>
       </div>
@@ -137,6 +143,48 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
   </div>
 </div>
 
+<!-- text -->
+
+<div class="container p-4 justify">
+  <p>The Persian Empire started as a collection of semi-nomadic tribes who raised sheep, goats and cattle on the Iranian
+  plateau.
+  
+  Cyrus the Great—the leader of one such tribe—began to defeat nearby kingdoms, including Media, Lydia and Babylon,
+  joining them under one rule. He founded the first Persian Empire, also known as the Achaemenid Empire, in 550 B.C.
+  
+  The first Persian Empire under Cyrus the Great soon became the world’s first superpower. It united under one government
+  three important sites of early human civilization in the ancient world: Mesopotamia, Egypt’s Nile Valley and India’s
+  Indus Valley.</p>
+</div>
+
+<!-- map -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-lg align-items-center">
+      <div class="ratio ratio-16x9">
+     <img src="./photos/map.png" alt=""></div>
+
+   
+</div>
+     <div class="col-md col-lg">
+   
+      <p class=>The only empire that has lasted through out the history is Persian empire, Greeks came and since 2000 years ago you
+      never heard from them again until past few years over their economic fallout, then Romans came and there is nothing left
+      from them, no one even speaks Latin, Mongoles came and they became Persianized and took Persian culture to India and
+      Ottoman empire where Persian language was the official language in the government. Ottoman Turks (Turkey) don't even
+      belong to that land, any excavation only shows signs of Greeks, Romans or Persians, Ottoman Turks are from north central
+      Asia, and they were people with no identity, Persians called them Turks. All countries on the western boarders of Iran
+      speak Arabic, even Egyptians, Why? From Iran to the East no one speaks Arabic, only some influence of Arabic language
+      just like Spanish. Arabic language was inferior to Persian language and that is why it came up short against it.
+      It is interesting to see people with no knowledge of history they ask why Iran is always on the news. Iran has always
+      been on the news since the dawn of civilization, sometimes good and sometimes bad governments like right now.</p>
+    </div>
+
+  </div>
+</div>
+
+
 <!-- cards -->
 
 <section class="bg-light p-5">
@@ -145,8 +193,10 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
     <div class="col-lg-3 col-sm-6 g-3">
       <div class="card">
         <div class="ratio ratio-4x3">
-          <img src="./photos/sarbaze sasani.jpg" class="card-img-top" alt="...">
-        </div>        <div class="card-body">
+          <img class="rounded-3" onmouseover="this.src='./photos/Cyrus.jpg'" onmouseout="this.src='photos/ardeshirShah.webp'"
+            src="./photos/kashan-bazarr.jpg">
+        </div>        
+        <div class="card-body">
           <h5>Sarbaze Hakhamanesh</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -156,8 +206,9 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
     <div class="col-lg-3 col-sm-6 g-3">
       <div class="card">
         <div class="ratio ratio-4x3">
-          <img src="./photos/sarbaz_hakhamaneshi.jpg" class="card-img-top" alt="...">
-        </div>
+<img class="rounded-3" onmouseover="this.src='./photos/sarbaz_hakhamaneshi.jpg'" onmouseout="this.src='./photos/kashan-bazarr.jpg'"
+  src="./photos/kashan-bazarr.jpg">        
+    </div>
         <div class="card-body">
           <h5>Sarbaze Hakhamanesh</h5>
           <p class="card-text justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -168,8 +219,10 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
     <div class="col-lg-3 col-sm-6 g-3">
       <div class="card">
         <div class="ratio ratio-4x3">
-          <img src="./photos/sarbaze sasani.jpg" class="card-img-top" alt="...">
-        </div>        <div class="card-body">
+<img class="rounded-3" onmouseover="this.src='./photos/Cyrus.jpg'" onmouseout="this.src='./photos/kashan-bazarr.jpg'"
+  src="./photos/kashan-bazarr.jpg">        
+    </div>        
+        <div class="card-body">
           <h5>Sarbaze Hakhamanesh</h5>
           <p class="card-text justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -179,8 +232,10 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
     <div class="col-lg-3 col-sm-6 g-3">
         <div class="card">
         <div class="ratio ratio-4x3">
-          <img src="./photos/sarbaz_hakhamaneshi.jpg" class="card-img-top" alt="...">
-        </div>        <div class="card-body">
+<img class="rounded-3" onmouseover="this.src='./photos/Cyrus.jpg'" onmouseout="this.src='./photos/kashan-bazarr.jpg'"
+  src="./photos/kashan-bazarr.jpg">        
+      </div>        
+        <div class="card-body">
           <h5>Sarbaze Hakhamanesh</h5>
           <p class="card-text justify justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -190,16 +245,18 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
   </div>
 </div>
 </section>
+
+<!-- <img src="photos/ardeshirShah.webp" alt=""> -->
   
   <!-- footer -->
 
   <footer>
     <section  class="p-3 bg-dark">
-      <div class="container">
-      <div class="row text-center">
-  <div class="col-md text-lg-start ">
+      <div class="container ">
+      <div class="row fst-italic text-center ">
+  <div class="col-md text-lg-start  ">
           <ul>
-            <h4 class="text-light">Contact</h4>
+            <h4 class="text-light lead">Contact</h4>
             <li class="text-light">City : Kashan</li>
             <li class="text-light">Empire : Safavid  </li>
             <li class="text-light">Constructed : 1813</li>
@@ -207,20 +264,42 @@ History of Iran, which was commonly known until the mid-20th century as Persia i
           
   </div>
   
-          <div class="col-md text-lg-start">
-                  <ul>
-                    <h4 class="text-light ">About Us</h4>
+          <div class="col-md text-lg-start ">
+                  <ul >
+                    <h4 class="text-light lead">About Us</h4>
                     <li class="text-light ">City : Kashan</li>
                     <li class="text-light ">Empire : Safavid  </li>
                     <li class="text-light ">Constructed : 1813</li>
                   </ul>
                   </div>
-  
-                <div class="col-2 text-lg-start">
-                  <img class="farvahar-brand" src="./photos/farvahar.jpg" alt="">
+                  
+                    <div class="col-md text-lg-start ">
+                      <ul class="">
+                        <h4 class="text-light lead">About Us</h4>
+                        <li class="text-light ">City : Kashan</li>
+                        <li class="text-light ">Empire : Safavid </li>
+                        <li class="text-light ">Constructed : 1813</li>
+                      </ul>
+                    </div>
 
-                </div>
+
+                  <div class="col-md text-lg-center ">
+                    <ul>
+                   <img class="farvahar-brand" src="./photos/farvahar-removebg-preview.png" alt="">
+                      <li><a class="text-light text-decoration-none"  href="https://github.com/jasem66">jasem66</a></li>
+                     
+                       
+                    </ul>
+                  </div>
   
+                <!-- <div class="col-md text-lg-start " >
+                  <div class="text-light text-center ">
+                  <img class="farvahar-brand" src="./photos/farvahar-removebg-preview.png" alt="">
+                   <span class="text-light ">Persian.farvahar</span>
+                  </div> 
+            </div>
+           -->
+
     </div>
       </div>
     </section>
