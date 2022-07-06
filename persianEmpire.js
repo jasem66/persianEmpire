@@ -38,4 +38,23 @@
 //    } 
 //    links.classList.toggle("show-links");
 // });
+sum()
+
+//Es 6 7 8 9
+
+ // function sayHello(): String {
+
+ // }
+
+debugger
+
+// const {key1,key3}={key1:"1",key2:"2",key3:"3"}
+// const [ a, ,t ] = [ '1','2', '3' ]
+
+const sum=(x,y)=> {
+  return x+y
+}
+
+(sum("sfsdf",5), 7)
+
 
