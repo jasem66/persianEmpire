@@ -51,10 +51,10 @@ debugger
 // const {key1,key3}={key1:"1",key2:"2",key3:"3"}
 // const [ a, ,t ] = [ '1','2', '3' ]
 
-const sum=(x,y)=> {
-  return x+y
-}
+// const sum=(x,y)=> {
+//   return x+y
+// }
 
-(sum("sfsdf",5), 7)
+// (sum("sfsdf",5), 7)
 
 
